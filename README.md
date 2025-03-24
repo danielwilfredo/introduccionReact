@@ -1,70 +1,63 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Guía para Crear un Proyecto de React.js con Vite
 
-## Available Scripts
+Esta guía te ayudará a configurar un proyecto de React.js utilizando Vite de manera rápida y sencilla.
 
-In the project directory, you can run:
+## Requisitos Previos
 
-### `npm start`
+Antes de comenzar, asegúrate de tener lo siguiente instalado en tu sistema:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Node.js**: Puedes descargarlo desde [nodejs.org](https://nodejs.org).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Pasos para Crear el Proyecto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 1. Crear el Proyecto con Vite
 
-### `npm run build`
+1. Abre una terminal y ejecuta el siguiente comando:
+    ```bash
+    npm create vite@latest nombre-del-proyecto
+    ```
+2. Reemplaza `nombre-del-proyecto` con el nombre que desees para tu proyecto.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 2. Seleccionar la Plantilla
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Durante la configuración, selecciona una de las siguientes plantillas según tus necesidades:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **React**: Para un proyecto estándar de React.js.
+- **React + TypeScript**: Si deseas trabajar con TypeScript.
 
-### `npm run eject`
+### 3. Acceder al Directorio del Proyecto
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Navega al directorio del proyecto recién creado con el siguiente comando:
+```bash
+cd nombre-del-proyecto
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 4. Instalar las Dependencias
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Ejecuta el siguiente comando para instalar las dependencias necesarias:
+```bash
+npm install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 5. Iniciar el Servidor de Desarrollo
 
-## Learn More
+Inicia el servidor de desarrollo con el siguiente comando:
+```bash
+npm run dev
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Esto abrirá tu aplicación en el navegador en la dirección `http://localhost:5173`.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## Edición y Desarrollo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Abre el proyecto en tu editor de código favorito, como [Visual Studio Code](https://code.visualstudio.com/).
+2. Comienza a desarrollar tu aplicación editando los archivos del proyecto.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+¡Listo! Ahora tienes un proyecto de React.js configurado con Vite y listo para comenzar a trabajar.
